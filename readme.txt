@@ -18,6 +18,7 @@ For the simulation to run, you will need to have:
 	f. os - Native to Python3
 2. An installation of LTSpice - You will need to note down to yourself the location of the executable (scad3.exe) file
 3. Microsoft Office - specifically Excel
+4. Download the two simulation files "GBLIB.py" and "params.xlsx" from this repository 
 
 **************************************************
 Simulation parameters
