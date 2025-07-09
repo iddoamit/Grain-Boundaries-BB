@@ -40,7 +40,7 @@ These parameters are in the "params.xlsx" file, within the locked "Materials" ta
 Simulation parameters - user controlled (unlocked)
 --------------------------------------------------
 These parameters are in the "params.xlsx" file, within the locked "Simulation" tab. The parameters are:
-1. Grain length variation - given as a fraction of the nominal value (e.g., a value of 0.1 means 5e-6 cm)
+1. Grain length variation - given as a fraction of the nominal value (e.g., a value of 0.1 means 5e-6 cm). Grain sizes will be sampled from a normal distribution with the stated standard deviation
 2. Number of simulation iterations - recommended 1000 or more
 3. File name - the simulation netlist and output files will be saved using this name ("filename.net" and "filename.raw"). The output file will use this name too ("filename.xlsx") so it is important to change it between iterations.
 4. LTSpice path - The location of the ltspice executable on your machine. It is normally set to the Mac default, but needs to be changed for other computers.
